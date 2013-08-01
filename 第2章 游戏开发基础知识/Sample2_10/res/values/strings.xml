@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    <string name="app_name">Sample2_10</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">发送</string>
+    <string name="not_connected">没有连接到设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可使用，退出程序</string>
+    <string name="title_connecting">正在连接……</string>
+    <string name="title_connected_to">已连接： </string>
+    <string name="title_not_connected">未连接</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">正在扫描设备……</string>
+    <string name="select_device">选择要连接的设备</string>
+    <string name="none_paired">没有可配对的设备</string>
+    <string name="none_found">未找到设备</string>
+    <string name="title_paired_devices">已配对的设备</string>
+    <string name="title_other_devices">其它可用设备</string>
+    <string name="button_scan">扫描设备</string>
+<string name="hint">在此输入要发送的信息</string>
+</resources>

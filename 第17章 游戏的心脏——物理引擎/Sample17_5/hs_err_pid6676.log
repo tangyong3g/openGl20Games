@@ -1,0 +1,91 @@
+#
+# An unexpected error has been detected by Java Runtime Environment:
+#
+#  Internal Error (434C41535326494C453041525345520E4350500B65), pid=6676, tid=5304
+#
+# Java VM: Java HotSpot(TM) Client VM (1.6.0_02-b06 mixed mode)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x003f6c00):  JavaThread "Unknown thread" [_thread_in_vm, id=5304]
+
+Stack: [0x008d0000,0x00920000)
+[error occurred during error reporting, step 110, id 0xc00000fd]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [javaw.exe+0xc4fc]
+C  [javaw.exe+0x81b5]
+C  [kernel32.dll+0xb729]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+VM state:not at safepoint (not fully initilizated)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap
+ def new generation   total 960K, used 0K [0x029d0000, 0x02ad0000, 0x02eb0000)
+  eden space 896K,   0% used [0x029d0000, 0x029d0000, 0x02ab0000)
+  from space 64K,   0% used [0x02ab0000, 0x02ab0000, 0x02ac0000)
+  to   space 64K,   0% used [0x02ac0000, 0x02ac0000, 0x02ad0000)
+ tenured generation   total 4096K, used 0K [0x02eb0000, 0x032b0000, 0x069d0000)
+   the space 4096K,   0% used [0x02eb0000, 0x02eb0000, 0x02eb0200, 0x032b0000)
+ compacting perm gen  total 12288K, used 99K [0x069d0000, 0x075d0000, 0x0a9d0000)
+   the space 12288K,   0% used [0x069d0000, 0x069e8d40, 0x069e8e00, 0x075d0000)
+No shared spaces configured.
+
+Dynamic libraries:
+0x00400000 - 0x00423000 	D:\java\jdk1.6.0_02\bin\javaw.exe
+0x7c920000 - 0x7c9b6000 	C:\WINDOWS\system32\ntdll.dll
+0x7c800000 - 0x7c91e000 	C:\WINDOWS\system32\kernel32.dll
+0x77da0000 - 0x77e49000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x77e50000 - 0x77ee3000 	C:\WINDOWS\system32\RPCRT4.dll
+0x77fc0000 - 0x77fd1000 	C:\WINDOWS\system32\Secur32.dll
+0x77d10000 - 0x77da0000 	C:\WINDOWS\system32\USER32.dll
+0x77ef0000 - 0x77f39000 	C:\WINDOWS\system32\GDI32.dll
+0x76300000 - 0x7631d000 	C:\WINDOWS\system32\IMM32.DLL
+0x62c20000 - 0x62c29000 	C:\WINDOWS\system32\LPK.DLL
+0x73fa0000 - 0x7400b000 	C:\WINDOWS\system32\USP10.dll
+0x7c340000 - 0x7c396000 	D:\java\jdk1.6.0_02\jre\bin\msvcr71.dll
+0x6d870000 - 0x6dab9000 	D:\java\jdk1.6.0_02\jre\bin\client\jvm.dll
+0x76b10000 - 0x76b3a000 	C:\WINDOWS\system32\WINMM.dll
+0x6d3c0000 - 0x6d3c8000 	D:\java\jdk1.6.0_02\jre\bin\hpi.dll
+0x76bc0000 - 0x76bcb000 	C:\WINDOWS\system32\PSAPI.DLL
+0x6d820000 - 0x6d82c000 	D:\java\jdk1.6.0_02\jre\bin\verify.dll
+0x6d460000 - 0x6d47f000 	D:\java\jdk1.6.0_02\jre\bin\java.dll
+0x6d860000 - 0x6d86f000 	D:\java\jdk1.6.0_02\jre\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=GBK -Xbootclasspath:D:\android-sdk-windows\platforms\android-8\android.jar
+java_command: com.JointResearch_1.HelloWorld
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=D:\java\jdk1.6.0_02
+CLASSPATH=.;D:\android-sdk-windows\tools;D:\java\jdk1.6.0_02\BIN;C:\oracle\product\10.2.0\db_1\jdbc\lib\ojdbc14.jar;C:\oracle\product\10.2.0\db_1\jdbc\lib\nls_charset12.jar;
+
+PATH=D:/java/jdk1.6.0_02/bin/../jre/bin/client;D:/java/jdk1.6.0_02/bin/../jre/bin;D:/java/jdk1.6.0_02/bin/../jre/lib/i386;D:\android-sdk-windows_2_2Update\android-sdk-windows\tools;D:\java\jdk1.6.0_02\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ASUS Security Center\ASUS Security Protect Manager\bin;C:\Program Files\Common Files\Thunder Network\KanKan\Codecs;E:\powerBuilder\win32;E:\Shared\win32;E:\Shared\Sybase Central 4.1;E:\powerBuilder\sybase\PowerDynamo\win32;E:\powerBuilder\Shared\PowerBuilder;E:\powerBuilder\Shared\Web Targets;C:\Program Files\Microsoft SQL Server\80\Tools\BINN;d:\CTEX\UserData\miktex\bin;d:\CTEX\MiKTeX\miktex\bin;d:\CTEX\CTeX\ctex\bin;d:\CTEX\CTeX\cct\bin;d:\CTEX\CTeX\ty\bin;d:\CTEX\Ghostscript\gs9.00\bin;d:\CTEX\GSview\gsview;d:\CTEX\WinEdt;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\backburner 2\;C:\Program Files\Autodesk\Backburner\;C:\Program Files\MySQL\MySQL Server 5.0\bin;C:\Program Files\Cesoft\Excel Server2010;C:\Program Files\Cesoft\Excel Server2010;F:\cpp\Tools\WinNT;F:\cpp\MSDev98\Bin;F:\cpp\Tools;F:\VC98\bin
+USERNAME=WADE
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 15 Stepping 13, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows XP Build 2600 Service Pack 3
+
+CPU:total 2 (2 cores per cpu, 1 threads per core) family 6 model 15 stepping 13, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3
+
+Memory: 4k page, physical 2096304k(851556k free), swap 4038148k(2667328k free)
+
+vm_info: Java HotSpot(TM) Client VM (1.6.0_02-b06) for windows-x86, built on Jul 12 2007 01:16:14 by "java_re" with unknown MS VC++:1310
+

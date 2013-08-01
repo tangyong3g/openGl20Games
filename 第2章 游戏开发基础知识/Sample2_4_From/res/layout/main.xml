@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >        
+      <Button 
+        android:text="获取" 
+        android:id="@+id/Button01" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+      </Button>
+   </LinearLayout>
+   <ScrollView 
+     android:id="@+id/ScrollView01" 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content">
+    <EditText 
+      android:id="@+id/EditText02" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content">
+    </EditText>
+   </ScrollView>
+</LinearLayout>
